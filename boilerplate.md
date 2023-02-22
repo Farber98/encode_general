@@ -27,7 +27,7 @@ yarn hardhat init
 4. Rename tests and remove template files from contracts, scripts and tests.
 
 ```
-mv test tests && rm contracts/\* && rm -r scripts/\* && rm -r tests/\* && yarn hardhat clean
+mv test tests && rm contracts/* && rm -r scripts/* && rm -r tests/* && yarn hardhat clean
 ```
 
 5. create .mocharc.json file
