@@ -17,9 +17,15 @@ yarn install
 yarn dlx @yarnpkg/sdks vscode
 ```
 
-3. Run command to update CLI commands.
+3. Install OpenAPI specification via swagger
+```
+yarn add @nestjs/swagger
+```
+
+4. Run command to update CLI commands.
 ```
 yarn run
 ```
 
-4. Some useful commands
+5. Some useful commands
+
