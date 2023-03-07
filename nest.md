@@ -16,3 +16,10 @@ yarn install
 ```
 yarn dlx @yarnpkg/sdks vscode
 ```
+
+3. Run command to update CLI commands.
+```
+yarn run
+```
+
+4. Some useful commands
