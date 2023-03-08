@@ -17,9 +17,20 @@ yarn install
 yarn dlx @yarnpkg/sdks vscode
 ```
 
-3. Install OpenAPI specification via swagger
+3. Make tsconfig.json resolveJsonModule
 ```
-yarn add @nestjs/swagger
+echo "$(jq '.compilerOptions += {"resolveJsonModule": true}' tsconfig.json)" > tsconfig.json
+```
+
+3. Install some dependencies
+```
+yarn add @nestjs/swagger && yarn add @nestjs/config && yarn add joi && yarn add ethers@^5.7.2
+```
+a. Remove prettier
+```
+yarn remove prettier
+
+rm .prettierrc
 ```
 
 4. Run command to update CLI commands.
