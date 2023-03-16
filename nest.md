@@ -22,21 +22,24 @@ yarn dlx @yarnpkg/sdks vscode
 echo "$(jq '.compilerOptions += {"resolveJsonModule": true}' tsconfig.json)" > tsconfig.json
 ```
 
-3. Install some dependencies
+4. Install other dependencies
 ```
 yarn add @nestjs/swagger && yarn add @nestjs/config && yarn add joi && yarn add ethers@^5.7.2
 ```
-a. Remove prettier
+
+5. Remove prettier
 ```
 yarn remove prettier
 
 rm .prettierrc
 ```
 
-4. Run command to update CLI commands.
+6. Run command to update CLI commands.
 ```
 yarn run
 ```
 
-5. Some useful commands
-
+7. Start server in development mode
+```
+yarn start:dev
+```
