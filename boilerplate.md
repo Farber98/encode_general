@@ -62,13 +62,18 @@ ETHERSCAN_API_KEY=""
 EOF
 ```
 
-8. Open project on vscode
+8. Install open zeppelin contracts as dev dependency
+```
+yarn add @openzeppelin/contracts --dev
+```
+
+9. Open project on vscode
 
 ```
 code .
 ```
 
-9. Add paths inside HardhatUserConfig at file hardhat.config.ts
+10. Add paths inside HardhatUserConfig at file hardhat.config.ts
 
 ```
 ...
