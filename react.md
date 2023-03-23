@@ -12,6 +12,7 @@ Install dependencies with yarn using nodeLinker to node-modules
 touch yarn.lock
 yarn config set nodeLinker node-modules
 yarn install
+yarn add ethers@^5.7.2 --dev
 ```
 
 Create components folder
